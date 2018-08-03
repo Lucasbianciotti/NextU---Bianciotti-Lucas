@@ -76,15 +76,23 @@
 			<div>
 				<br>
 				<label for="Institución">Institución</label>
-				<input type="text" name="Institución" id="Institución">
+				<input type="text" name="Institución" id="Institución" required placeholder="Next U">
 			</div>
 
 			<div>
 				<br>
 				<label for="Lugar">Lugar</label>
-				<input type="text" name="Lugar" id="Lugar">
+				<textarea rows="2" cols="25" id="Lugar" required></textarea>
 			</div>
 
+			<div>
+				<br>
+				<label for="rButton">¿Culminó?</label>
+				<div id="rButton">
+					<input type="radio" name="culmino" value="si"> Si<br>
+				  	<input type="radio" name="culmino" value="no"> No<br>
+				</div>
+			</div>
 			<div>
 				<br>
 				<input type="submit" value="Enviar" id="Boton">
